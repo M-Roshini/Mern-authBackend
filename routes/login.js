@@ -1,5 +1,5 @@
 const express = require("express")
-const { AuthenticateUser } = require("../controllers/Login")
+const { AuthenticateUser } = require("../controllers/login")
 var router = express.Router() //post request
 const client = require("../redis")
 
