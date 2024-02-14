@@ -21,7 +21,7 @@ async function InsertVerifyUser(name,email,password){
             password: hashedPassword,
             token:token,
         })
-        const activationLink =`http://localhost:4000/signin/${token}`
+        const activationLink =`https://mern-authbe.onrender.com/signin/${token}`
 
         const content=`<h4> hi, there</h4>
         <h5>Welcome to the app</h5>
